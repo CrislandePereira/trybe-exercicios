@@ -1,0 +1,3 @@
+# DIA 5
+
+O objetivo dos exercícios desse dia foi colocar em prática...

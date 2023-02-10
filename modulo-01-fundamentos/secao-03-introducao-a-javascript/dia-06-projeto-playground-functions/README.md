@@ -1,0 +1,3 @@
+# DIA 6
+
+O objetivo desse dia é colocar em prática os conteúdos aprendidos na Seção 3 do Módulo de Fundamentos através do projeto...
