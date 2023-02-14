@@ -5,17 +5,47 @@
   <meta charset="UTF-8">
   <title>HTML</title>
   <style>
+    body {
+      font-size: 16px;
+    }
+
     h1 {
+      text-align: center;
+      line-height: 1em;
       font-size: 65px;
       color: orange;
+      font-family: sans-serif;
     }
 
     ul {
+      font-style: italic;
+      text-decoration: underline;
       background-color: bisque;
+    }
+
+    p {
+      font-size: 3em;
+      font-weight: 600;
     }
 
     .frutas {
       background-color: aquamarine;
+    }
+
+    .cores {
+      background-color: azure;
+    }
+
+    #amarelo {
+      background-color: yellow;
+    }
+
+    #vermelho {
+      background-color: red;
+    }
+
+    #marrom {
+      background-color: #572f0f;
     }
   </style>
 </head>
@@ -23,11 +53,19 @@
 <body>
   <h1>Frutas</h1>
   <p class="frutas">Qual é a sua fruta favorita?</p>
-  <ul class="frutas">
+  <ul>
     <li>Maçã</li>
     <li>Banana</li>
     <li>Goiaba</li>
   </ul>
+
+  <h1>Cores</h1>
+  <p class="cores">Qual é a sua cor favorita?</p>
+  <ol>
+    <li id="amarelo">Amarelo</li>
+    <li id="vermelho">Vermelho</li>
+    <li id="marrom">Marrom</li>
+  </ol>
 </body>
 
 </html>
