@@ -53,3 +53,59 @@ if (positivo) {
 } else {
   console.log("Angulos informados são inválidos!");
 }
+
+// Exercicio Xadrez
+let piece = "Pawn";
+
+switch (piece) {
+  case "Queen":
+    console.log(
+      "Move in any direction - vertical, horizontal and diagonals (as many spaces as you want)."
+    );
+    break;
+  case "King":
+    console.log(
+      "Move in any direction - vertical, horizontal and diagonals (just one space)."
+    );
+    break;
+  case "Bishop":
+    console.log("It moves diagonally, as many squares as you want.");
+    break;
+  case "Tower":
+    console.log(
+      "Move in a straight line, both vertically and horizontally, as many squares as you like."
+    );
+    break;
+  case "Horse":
+    console.log(
+      "You can move two squares horizontally and one square vertically, or two squares vertically and one square horizontally, in L."
+    );
+    break;
+  case "Pawn":
+    console.log(
+      "You always move one space forward, except on the first move, when you can move two spaces."
+    );
+    break;
+  default:
+    console.log("Error: Piece invalid!");
+}
+
+// Exercicio Notas
+
+let score = 91;
+
+if (score < 0 || score > 100) {
+  console.log("Nota Inválida!");
+} else if (score >= 90) {
+  console.log("Score A");
+} else if (score >= 80) {
+  console.log("Score B");
+} else if (score >= 70) {
+  console.log("Score C");
+} else if (score >= 60) {
+  console.log("Score D");
+} else if (score >= 50) {
+  console.log("Score E");
+} else if (score < 50) {
+  console.log("Score F");
+}
