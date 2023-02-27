@@ -16,8 +16,8 @@
 
 - [x] 3-1: \_HTML & CSS- Estruturas de páginas
 - [x] 3-2: \_HTML & CSS- Posicionamento e seletores
-- [ ] 3-3: \_HTML Semântico
-- [ ] 3-4: \_Projeto - Lessons Learned
+- [x] 3-3: \_HTML Semântico
+- [x] 3-4: \_Projeto - Lessons Learned
 
 ##### Bloco 4: JavaScript
 
