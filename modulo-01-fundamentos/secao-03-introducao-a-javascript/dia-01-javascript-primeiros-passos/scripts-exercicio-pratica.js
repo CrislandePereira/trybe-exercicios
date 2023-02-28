@@ -109,3 +109,59 @@ if (score < 0 || score > 100) {
 } else if (score < 50) {
   console.log("Score F");
 }
+
+// Exercicios Par
+
+const value1 = 9;
+const value2 = 10;
+const value3 = 15;
+
+if (value1 % 2 == 0 || value2 % 2 == 0 || value3 % 2 == 0) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+
+if (value1 % 2 == 1 || value2 % 2 == 1 || value3 % 2 == 1) {
+  console.log("true");
+} else {
+  console.log("false");
+}
+
+// Exercicio Custo e Lucro
+
+if (value1 >= 0 && value3 >= 0) {
+  let totalCost = value1 * 1.2;
+  let totalLucro = value3 - totalCost;
+  console.log("O lucro é R$" + totalLucro);
+} else {
+  console.log("Erro, valores inválidos!");
+}
+
+// Exercicio INSS
+
+let aliquotINSS;
+let aliquotIR;
+let grossSalary = 2000.0;
+if (grossSalary <= 1556.94) {
+  aliquotINSS = grossSalary * 0.08;
+} else if (grossSalary <= 2594.92) {
+  aliquotINSS = grossSalary * 0.09;
+} else if (grossSalary <= 5189.82) {
+  aliquotINSS = grossSalary * 0.11;
+} else {
+  aliquotINSS = 570.88;
+}
+let baseSalary = grossSalary - aliquotINSS;
+if (baseSalary <= 1903.98) {
+  aliquotIR = 0;
+} else if (baseSalary <= 2826.65) {
+  aliquotIR = baseSalary * 0.075 - 142.8;
+} else if (baseSalary <= 3751.05) {
+  aliquotIR = baseSalary * 0.15 - 354.8;
+} else if (baseSalary <= 4664.68) {
+  aliquotIR = baseSalary * 0.225 - 636.13;
+} else {
+  aliquotIR = baseSalary * 0.275 - 869.36;
+}
+console.log("Salário: R$" + (baseSalary - aliquotIR) + ",00");
