@@ -33,3 +33,11 @@ console.log("O resultado da soma de " + a + " + " + b + " é: " + soma(a, b));
 const numeroAleatorio = () => Math.random();
 
 console.log(numeroAleatorio());
+
+// Exercicio 6
+const nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`;
+
+let nome = "Ivan";
+let sobrenome = "Pires";
+
+console.log(nomeCompleto(nome, sobrenome));
