@@ -1,0 +1,79 @@
+ol li {
+  background-color: #f9ee4c;
+}
+
+/*  A pseudo-classe CSS :nth-child() seleciona elementos com base em suas posições em um grupo de elementos irmãos:
+odd: Representa elementos cuja posição numérica em uma série de irmãos seja ímpar: 1, 3, 5, etc.
+even: Representa elementos cuja posição numérica em uma série de irmãos seja par: 2, 4, 6, etc. */
+ol li:nth-child(even) {
+  color: #157a55;
+}
+
+ol li:nth-child(odd) {
+  text-transform: uppercase;
+}
+
+h1,
+h2 {
+  color: #e72929;
+}
+
+h1 em,
+h2 em {
+  font-size: 40px;
+  border: 1px solid #000;
+}
+
+li {
+  font-size: 20px;
+}
+
+li em {
+  font-weight: bold;
+}
+
+.type-languages li:not(:nth-child(n + 4)) {
+  color: #146ad2;
+}
+
+.bg-pink {
+  background-color: #e63fe9;
+}
+
+.allies li,
+.allies li a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 26px;
+  font-family: monospace;
+  padding: 5px 10px;
+}
+.allies li a:hover {
+  font-weight: bold;
+  background-color: #efe;
+}
+
+.allies li a[href="https://pt.stackoverflow.com/"]
+{
+  color: #c95c09;
+}
+
+.allies li a[href="https://www.w3schools.com/"]
+{
+  color: #157a55;
+}
+
+.allies li a[href="https://developer.mozilla.org/pt-BR/"]
+{
+  color: #000000;
+}
+
+.allies li a[href="https://devdocs.io/"]
+{
+  color: #fbea00;
+}
+
+.allies li a[href="https://app.betrybe.com/"]
+{
+  color: #134331;
+}
