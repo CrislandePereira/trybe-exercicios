@@ -12,8 +12,8 @@ const insertPhraseInDOM = () => {
 };
 
 const addPhraseToSessionStorage = () => {
-  if (sessionStorage.getItem("phrases") === null) {
-    sessionStorage.setItem("phrases", JSON.stringify([]));
+  if (sessionStorage.getItem("phrases") === null) { // getItem -> recupera o valor
+    sessionStorage.setItem("phrases", JSON.stringify([])); // setItem -> salva
   }
   const oldList = JSON.parse(sessionStorage.getItem("phrases"));
   const phraseText = input.value;
