@@ -33,8 +33,8 @@
 ##### Bloco 5: HTML & CSS
 
 - [x] 5-1: \_HTML e CSS- Forms, bibliotecas Javascript e Frameworks CSS
-- [ ] 5-2: \_CSS Flexbox- Parte 1 e 2
-- [ ] 5-3: \_CSS Responsivo- Mobile First
+- [x] 5-2: \_CSS Flexbox- Parte 1 e 2
+- [x] 5-3: \_CSS Responsivo- Mobile First
 - [ ] 5-4: \_Projeto - Trybewarts
 
 ##### Bloco 6: Introdução JS ES6 e Testes Unitários
