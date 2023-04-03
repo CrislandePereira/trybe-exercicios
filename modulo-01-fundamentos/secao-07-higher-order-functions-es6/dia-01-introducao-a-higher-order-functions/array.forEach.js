@@ -18,3 +18,22 @@ const multiply = (element) => {
 }
 
 numbers.forEach(multiply);
+
+// Exemplo do video
+
+let listaPessoasAprovadas = [
+  'ada@example.com',
+  'marie@example.com',
+  'margaret@example.com',
+  'alan@example.com'
+];
+
+const enviarEmail = (email) => {
+  console.log(`Email para ${email} foi enviado com sucesso!`);
+};
+
+listaPessoasAprovadas.forEach((item, posicao, array) => {
+  enviarEmail(item);
+  console.log(`Sua posição é a de: ${posicao}`);
+  console.log(`A quantidade de pessoas no processo seletivo é: ${array.length}`);
+});
