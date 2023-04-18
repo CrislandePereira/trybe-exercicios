@@ -134,3 +134,4 @@ const reportStatus = (name, students) => {
 };
 
 console.log(reportStatus('Maria', students));
+

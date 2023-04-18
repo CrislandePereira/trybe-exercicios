@@ -35,17 +35,17 @@
 - [x] 5-1: \_HTML e CSS- Forms, bibliotecas Javascript e Frameworks CSS
 - [x] 5-2: \_CSS Flexbox- Parte 1 e 2
 - [x] 5-3: \_CSS Responsivo- Mobile First
-- [ ] 5-4: \_Projeto - Trybewarts
+- [x] 5-4: \_Projeto - Trybewarts
 
 ##### Bloco 6: Introdução JS ES6 e Testes Unitários
 
-- [ ] 6-1: \_Fluxo de exceções e manipulação de objetos
-- [ ] 6-2: \_Jest, Matchers e cobertura de código
-- [ ] 6-3: \_Projeto - JavaScript Testes Unitários
+- [x] 6-1: \_Fluxo de exceções e manipulação de objetos
+- [x] 6-2: \_Jest, Matchers e cobertura de código
+- [x] 6-3: \_Projeto - JavaScript Testes Unitários
 
 ##### Bloco 7: Higher Order Functions do JavaScript ES6
 
-- [ ] 7-1: \_Higher Order Functions- sort, map, filter, reduce
-- [ ] 7-2: \_JavaScript ES6- spread operator, rest parameters e object destructuring
-- [ ] 7-3: \_JavaScript ES6- array destructuring, default destructuring, object property shorthand e default parameters
-- [ ] 7-4: \_Projeto - Zoo Functions
+- [x] 7-1: \_Higher Order Functions- sort, map, filter, reduce
+- [x] 7-2: \_JavaScript ES6- spread operator, rest parameters e object destructuring
+- [x] 7-3: \_JavaScript ES6- array destructuring, default destructuring, object property shorthand e default parameters
+- [x] 7-4: \_Projeto - Zoo Functions
