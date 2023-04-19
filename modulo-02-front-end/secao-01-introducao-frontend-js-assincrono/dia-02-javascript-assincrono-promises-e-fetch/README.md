@@ -1,6 +1,6 @@
-Dia 02 #
+# Dia 02 
 
-# Código síncrono e assícrono
+## Código síncrono e assícrono
 
 No código síncrono uma 'tarefa' é iniciada, e outra 'tarefa'só é chamada quando a tarefa anterior for executada e tiver terminado. Tem uma sequência, um passo a passo. Um só inicia quando o anterior terminou a execução.
 
