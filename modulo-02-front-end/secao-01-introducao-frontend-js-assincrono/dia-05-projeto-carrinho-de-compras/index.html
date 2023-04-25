@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrinho de Compras</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img class="img-logo" src="./assets/logo.svg" alt="logo da pagina carrinho de compras">
+    </div>
+    <div class="my-car">
+      <img src="./assets/icone-carrinho.svg" alt="icone carrinho de compras" class="icon-carrinho">
+      <h3 class="meu-carrinho">Meu Carrinho</h3>
+    </div>
+  </header>
+
+  <main>
+    <div class="content"></div>
+
+    <div class="sidebar">
+      <div class="show-product-car"></div>
+
+      <div class="info-CEP">
+        <div id="total"></div>
+
+        <input type="text" placeholder="Digite seu CEP" class="input-cep">
+        <button class="btn-cep">Buscar CEP</button>
+        <h3 class="infos-cep">Rua - Bairro - Cidade - Estado</h3>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <script src="./src/main.js" type="module"></script>
+</body>
+
+</html>
