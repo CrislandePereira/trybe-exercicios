@@ -1,0 +1,16 @@
+{
+  "name": "dia-05-projeto-carrinho-de-compras",
+  "version": "1.0.0",
+  "description": "Projeto Módulo Front End - Carrinho de Compras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "type": "module",
+  "author": "Crislande Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^4.3.1"
+  }
+}

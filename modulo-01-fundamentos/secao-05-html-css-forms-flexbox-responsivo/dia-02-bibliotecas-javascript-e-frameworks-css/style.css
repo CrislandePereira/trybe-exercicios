@@ -1,0 +1,19 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+}
+
+main {
+  margin-top: 50px;
+  padding: 30px;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
