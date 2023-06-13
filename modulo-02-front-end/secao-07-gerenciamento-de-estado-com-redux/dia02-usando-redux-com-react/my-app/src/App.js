@@ -1,4 +1,4 @@
-import './App.css';
+import './style.css';
 import React from 'react';
 import { connect } from 'react-redux';
 import { actionCreator, clickCounter } from './redux/actions';
@@ -12,9 +12,9 @@ function App(props) {
   };
 
   return (
-    <div className="App">
+    <div className="container">
       <h1>Contador</h1>
-      <h2>{ countState }</h2>
+      <h2>{ countState ? countState : 0 }</h2>
       <button onClick={() => dispatchAll()}>Incrementa 1</button>
       <button onClick={() => dispatchAll(5)}>Incrementa 5</button>
       <h3>Número de clicks: {clicksCount}</h3>
