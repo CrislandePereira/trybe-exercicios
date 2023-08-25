@@ -1,15 +1,37 @@
+// const fetch = require('node-fetch');
 
-const readlineSync = require('readline-sync');
+// fetch('https://random-data-api.com/api/v2/users')
+// .then((response) => response.json())
+// .then((data) => console.log(data));
 
-const sum = (num1, num2) => num1 + num2;
+const axios = require('axios').default;
 
-const num1 = readlineSync.questionInt('Please enter your first number: ');
-const num2 = readlineSync.questionInt('Please enter your second number: ');
+const baseURL = 'https://random-data-api.com/api/v2/';
 
-console.log(sum(num1, num2));
+const getUsers = async () => {
+  const response = await axios.get(baseURL.concat('users'));
+  console.log(response.data);
+};
 
-// console.log('Welcome!');
+const getBanks = async () => {
+  const response = await axios.get(baseURL.concat('banks'));
+  console.log(response.data);
+};
 
-// const name = readlineSync.question('May I have your name? ');
+const getAdresses = async () => {
+  const response = await axios.get(baseURL.concat('addresses'));
+  console.log(response.data);
+};
 
-// console.log(`Hello, ${name}!`);
+const main = async () => {
+  console.time('requests');
+  const requests = await Promise.all([
+    getUsers(),
+    getBanks(),
+    getAdresses(),
+  ]);
+  console.log(requests);
+  console.timeEnd('requests');
+};
+
+main();
