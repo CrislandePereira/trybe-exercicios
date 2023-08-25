@@ -25,9 +25,8 @@ const getAdresses = async () => {
 
 const main = async () => {
   console.time('requests');
-  const users = await getUsers();
-  const banks = await getBanks();
-  const adresses = await getAdresses();
+  const requests = await Promise.all([getUsers(), getBanks(), getAdresses()]);
+  console.log(requests);
   console.timeEnd('requests');
 };
 
